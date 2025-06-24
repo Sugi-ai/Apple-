@@ -1,0 +1,85 @@
+body 
+
+/* @media (max-width: 600px) {body} */
+
+.products {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0 12px;
+}
+
+.products item {
+  height: 580px;
+  width: 400px;
+  background-color: brown;
+  width: calc(50% - 6px);
+  background-image: url(zurag1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 600px) {
+  .products {
+    flex-direction {
+      width: 100%;
+      height: 400%;
+    }
+  }
+}
+.headword {
+  color: rgba(0, 0, 0, 1);
+  size: 12px;
+  font-family: inter;
+}
+
+/* Box(1,2,3,4) */
+.box1 {
+  width: 1920px;
+  height: 44px;
+  gap: 24px;
+  background-color: #f5f5f7cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  width: 1920px;
+  gap: 4px;
+  padding: 16px 16px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: center;
+  text-align: center;
+  size: 14px;
+  font-family: inter;
+  letter-spacing: 0px;
+}
+
+.box3 {
+  background-image: url(Background1.png);
+  width: 1920px;
+  height: 692px;
+  background-repeat: repeat;
+}
+.box3-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box3-1-H1 {
+  font-family: inter;
+  size: 52px;
+  color: rgba(245, 245, 247, 1);
+  margin-top: 55px;
+  margin-bottom: 0;
+}
+.box3-1-H2 {
+  font-family: inter;
+  size: 24px;
+  color: rgba(245, 245, 247, 1);
+  margin-top: 16px;
+  font-weight: 400;
+}
