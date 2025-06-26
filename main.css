@@ -49,9 +49,11 @@ body
 .products-item:nth-child(6) {
   background-image: url(Figure6.png);
 }
+
 .products-item:nth-child(7) {
   background-image: url(Figure7.png);
 }
+
 .products-item:nth-child(8) {
   background-image: url(Figure8.png);
 }
@@ -65,9 +67,11 @@ body
   .products-item:nth-child(1) {
     width: 100%;
   }
+
   .products-item:nth-child(6) {
     display: none;
   }
+
   .products-item:nth-child(7),
   .products-item:nth-child(8) {
     display: block;
@@ -175,13 +179,36 @@ body
 }
 
 .box5 {
-  background-image: url(Background3.png);
+  background-image: url(Box5zurag.png);
   width: 1920px;
   height: 692px;
   background-repeat: repeat;
-  margin-top: 12px;
+  margin-top: 10px;
+}
+.card-box{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+}
+.box5-title{
+  font-family: inter;
+  font-size: 52px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: -0.28px;
+  margin-top: 446px;
+  
+}
+.box5-text{
+  font-family: inter;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
 }
 
+
+/* box6 */
 .box6 {
   background-image: url(Figure1.png);
   width: 942px;
@@ -200,8 +227,7 @@ body
   margin-top: 48px;
 }
 
-.card-img {
-}
+.card-img {}
 
 .card-img1 {
   display: flex;
@@ -242,6 +268,7 @@ body
   color: #2997ff;
   padding: 10px 16px;
 }
+
 .card-text {
   font-size: 14px;
   font-family: inter;
@@ -256,6 +283,7 @@ body
   font-size: 36px;
   font-weight: 600;
 }
+
 .products-item--end {
   justify-content: flex-end;
   padding-bottom: 58px;
@@ -276,9 +304,11 @@ body
   margin: 0px;
   letter-spacing: 0px;
 }
+
 .products-item .card-img {
   flex-direction: row;
 }
+
 .card-series {
   color: #000000;
   font-size: 16px;
@@ -288,9 +318,31 @@ body
   padding: 4px 85px;
   margin-top: 4px;
 }
+
 .card-img4 {
   font-size: 36px;
   font-family: inter;
   font-weight: 600;
   color: #1d1d1f;
 }
+    /* 5 */
+.trade-box{
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 10px;
+  font-family: inter;
+  size: 18px;
+  color: #1D1D1F;
+  text-align: center;
+}
+.estimate-button{
+  background-color: #0071E3;
+  color: #FFFFFF;
+  border: 1px solid #0071E3;
+  border-radius: 120px;
+  padding: 10px;
+  font-family: inter;
+}
+/* 6 */
