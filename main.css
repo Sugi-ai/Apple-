@@ -12,18 +12,19 @@ body
   gap: 12px;
   flex-wrap: wrap;
   margin: 0 12px;
+  text-align: center;
 }
 
 .products-item {
-  display: flex;
   height: 580px;
   width: calc(50% - 6px);
   background-color: brown;
   width: calc(50% - 6px);
   background-size: cover;
   background-position: center;
-  flex-direction: column;
-  justify-content: space-between;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .products-item:nth-child(1) {
@@ -63,31 +64,6 @@ body
   display: none;
 }
 
-@media (max-width: 1000px) {
-  .products-item:nth-child(1) {
-    width: 100%;
-  }
-
-  .products-item:nth-child(6) {
-    display: none;
-  }
-
-  .products-item:nth-child(7),
-  .products-item:nth-child(8) {
-    display: block;
-  }
-}
-
-@media (max-width: 600px) {
-  .products {
-    flex-direction: column;
-  }
-
-  .products-direction {
-    width: 100%;
-  }
-}
-
 .headword {
   color: rgba(0, 0, 0, 1);
   size: 12px;
@@ -95,7 +71,7 @@ body
 
 /* Box(1,2,3,4) */
 .box1 {
-  width: 1920px;
+  width: 100%;
   height: 44px;
   gap: 24px;
   background-color: #f5f5f7cc;
@@ -105,7 +81,7 @@ body
 }
 
 .box2 {
-  width: 1920px;
+  width: 100%;
   gap: 4px;
   padding: 16px 16px;
   display: flex;
@@ -115,13 +91,16 @@ body
   size: 14px;
   color: #1d1d1f;
   letter-spacing: 0px;
+  background-position: center;
 }
 
 .box3 {
   background-image: url(Background1.png);
-  width: 1920px;
+  width: 100%;
   height: 692px;
   background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .box3-1 {
@@ -171,42 +150,43 @@ body
 
 .box4 {
   background-image: url(Background2.png);
-  width: 1920px;
+  width: 100%;
   height: 692px;
   background-repeat: repeat;
   margin-top: 12px;
   background-size: cover;
+  background-position: center;
 }
 
 .box5 {
   background-image: url(Box5zurag.png);
-  width: 1920px;
+  width: 100%;
   height: 692px;
   background-repeat: repeat;
   margin-top: 10px;
+  background-size: cover;
+  background-position: center;
 }
-.card-box{
+.card-box {
   display: flex;
   justify-content: end;
   flex-direction: column;
   align-items: center;
 }
-.box5-title{
+.box5-title {
   font-family: inter;
   font-size: 52px;
   font-weight: 600;
   color: #000000;
   letter-spacing: -0.28px;
   margin-top: 446px;
-  
 }
-.box5-text{
+.box5-text {
   font-family: inter;
   font-size: 24px;
   font-weight: 400;
   color: #000000;
 }
-
 
 /* box6 */
 .box6 {
@@ -227,7 +207,8 @@ body
   margin-top: 48px;
 }
 
-.card-img {}
+.card-img {
+}
 
 .card-img1 {
   display: flex;
@@ -325,24 +306,101 @@ body
   font-weight: 600;
   color: #1d1d1f;
 }
-    /* 5 */
-.trade-box{
-  width: 300px;
+/* 5 */
+.trade-box {
+  width: 340px;
   margin: 0 auto;
   text-align: center;
   word-wrap: break-word;
   padding: 10px;
   font-family: inter;
   size: 18px;
-  color: #1D1D1F;
+  color: #1d1d1f;
   text-align: center;
 }
-.estimate-button{
-  background-color: #0071E3;
-  color: #FFFFFF;
-  border: 1px solid #0071E3;
+.estimate-button {
+  background-color: #0071e3;
+  color: #ffffff;
+  border: 1px solid #0071e3;
   border-radius: 120px;
   padding: 10px;
   font-family: inter;
 }
-/* 6 */
+/* 7 */
+
+.container7 {
+  width: 257px;
+  text-align: center;
+  margin: auto;
+}
+
+.container7-head {
+  font-family: inter, san-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d1d1f;
+  padding-top: 42px;
+}
+
+.container7-text {
+  font-family: inter, san-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  padding-top: 4px;
+}
+/* 8 */
+.container7-head-padding {
+  padding-top: 358px;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .products {
+    flex-direction: column;
+  }
+
+  .products-direction {
+    width: 100%;
+  }
+  .products-item {
+    width: 100%;
+  }
+  .box3 {
+    background-image: url(16pro-mobile.jpg);
+    padding-top: 400px;
+  }
+  .box4 {
+    background-image: url(bosoo-mobile.jpg);
+  }
+  .box5 {
+    display: none;
+  }
+}
+
+/* tablet */
+@media (max-width: 1000px) {
+  .products-item:nth-child(1) {
+    width: 100%;
+  }
+  .products-item:nth-child(3) {
+    background-image: url(watch-small.jpg);
+  }
+
+  .products-item:nth-child(6) {
+    display: none;
+  }
+
+  .products-item:nth-child(7),
+  .products-item:nth-child(8) {
+    display: block;
+  }
+}
+
+.footer {
+  display: flex;
+  margin-top: 24px;
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-left: 140px;
+}
