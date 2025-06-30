@@ -1,11 +1,7 @@
 body
 
 /* @media (max-width: 600px) {body} */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: "inter";
-}
+
 
 .products {
   display: flex;

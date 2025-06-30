@@ -1,5 +1,4 @@
-body
-* {
+body * {
   box-sizing: border-box;
   margin: 0;
   font-family: "inter";
@@ -29,11 +28,11 @@ body
   letter-spacing: 0px;
   background-position: center;
 }
-.box3{
-    background-color: #F5F5F7;
-    height: 75px;
+.box3 {
+  background-color: #f5f5f7;
+  height: 75px;
 }
-        /* box4 */
+/* box4 */
 /* main2.css */
 .box4 {
   width: 100%;
@@ -56,19 +55,19 @@ body
 }
 
 .store-gradient {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 44px;
   font-weight: 700;
   background: linear-gradient(90deg, #4f8cff 0%, #d96fff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+
   margin-right: 12px;
 }
 
 .box4-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   color: #6e6e73;
