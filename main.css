@@ -19,12 +19,9 @@ body
   height: 580px;
   width: calc(50% - 6px);
   background-color: brown;
-  width: calc(50% - 6px);
   background-size: cover;
   background-position: center;
-  background-repeat: repeat;
-  background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' for typical background images */
 }
 
 .products-item:nth-child(1) {
@@ -98,7 +95,7 @@ body
   background-image: url(Background1.png);
   width: 100%;
   height: 692px;
-  background-repeat: repeat;
+  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' */
   background-position: center;
   background-size: cover;
 }
@@ -152,7 +149,7 @@ body
   background-image: url(Background2.png);
   width: 100%;
   height: 692px;
-  background-repeat: repeat;
+  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' */
   margin-top: 12px;
   background-size: cover;
   background-position: center;
@@ -162,7 +159,7 @@ body
   background-image: url(Box5zurag.png);
   width: 100%;
   height: 692px;
-  background-repeat: repeat;
+  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' */
   margin-top: 10px;
   background-size: cover;
   background-position: center;
@@ -205,9 +202,6 @@ body
 .card {
   text-align: center;
   margin-top: 48px;
-}
-
-.card-img {
 }
 
 .card-img1 {
@@ -397,10 +391,86 @@ body
   }
 }
 
-.footer {
+/* tablist */
+
+.tablist {
   display: flex;
-  margin-top: 24px;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 16px 0;
+  padding: 0;
+  list-style: none;
+}
+.tablist .tab {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #bdbdbd;
+  border: none;
+  transition: background 0.2s;
+  cursor: pointer;
+  display: inline-block;
+}
+.tablist .tab.active {
+  background: #222;
+}
+
+/* Slides */
+
+.slides-container {
+  width: 100%;
+  display: flex;
+  margin-top: 12px;
   overflow-x: scroll;
   scroll-snap-type: x proximity;
-  padding-left: 140px;
+  gap: 20px;
 }
+.slides-container::-webkit-scrollbar {
+  width: 0;
+}
+.slides-container .slides {
+  min-width: 480px;
+}
+
+.slides {
+  width: 100%; height: 668px;
+  position: relative;
+  display: flex;
+  border: 18px;
+}
+
+
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+}
+.footer-container::-webkit-scrollbar {
+  width: 0;
+}
+.footer-container .footsection {
+  min-width: 480px;
+}
+
+.footsection {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 0px;
+  overflow-x: scroll;   
+  scroll-snap-type: x proximity;
+  gap: 20px;
+}
+
+
+
+
+

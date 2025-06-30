@@ -1,0 +1,6 @@
+{
+    "editor.detectIndentation": false,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "javascript.suggest.enabled": false,
+    "typescript.suggest.enabled": false
+}
