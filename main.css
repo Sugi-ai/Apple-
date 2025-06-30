@@ -252,6 +252,7 @@ body
   padding-bottom: 53px;
 }
 
+
 /* 2 */
 .products-item--end .card-img {
   color: #f5f5f7;
@@ -302,7 +303,7 @@ body
 }
 /* 5 */
 .trade-box {
-  width: 340px;
+  width: 300px;
   margin: 0 auto;
   text-align: center;
   word-wrap: break-word;
@@ -448,7 +449,7 @@ body
   margin-bottom: 12px;
 }
 
-}
+
 .footer-container::-webkit-scrollbar {
   width: 0;
 }
