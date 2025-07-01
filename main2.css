@@ -41,10 +41,10 @@ body * {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 40px;
+  /* padding: 24px 40px; */
   box-sizing: border-box;
   border-radius: 12px;
-  margin: 24px 0;
+  /* margin: 100px 0; */
 }
 
 .box4-left {
@@ -107,4 +107,8 @@ body * {
   cursor: pointer;
   display: block;
   margin-top: 2px;
+}
+
+.nonlink {
+  text-decoration: none;
 }
