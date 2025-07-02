@@ -1,6 +1,4 @@
-body
-
-* {
+body * {
   box-sizing: border-box;
 }
 
@@ -36,7 +34,7 @@ body
 
 .products-item:nth-child(4) {
   background-image: url(watch-small.jpg);
-  display: none ;
+  display: none;
 }
 
 .products-item:nth-child(5) {
@@ -65,7 +63,7 @@ body
 }
 
 .products-item:nth-child(9) {
-    background-image: url(Figure5.png);
+  background-image: url(Figure5.png);
   display: block;
 }
 .products-item:nth-child(10) {
@@ -225,10 +223,10 @@ body
   margin-top: 48px;
 }
 
-.card-mini{
-    text-align: center;
-    margin-top: 400px;
-    font-family: inter, sans-serif;
+.card-mini {
+  text-align: center;
+  margin-top: 400px;
+  font-family: inter, sans-serif;
 }
 
 .card-img1 {
@@ -398,6 +396,9 @@ body
 .tablist .tab.active {
   background: #222;
 }
+.margintop {
+  padding-top: 350px;
+}
 
 /* Slides */
 
@@ -470,7 +471,7 @@ body
   .products-item:nth-child(4) {
     display: block;
   }
-  .products-item:nth-child(5){
+  .products-item:nth-child(5) {
     display: none;
   }
   .products-item:nth-child(6) {
@@ -481,7 +482,6 @@ body
   .products-item:nth-child(7) {
     display: block;
   }
-
 
   .products-item:nth-child(8) {
     display: block;
