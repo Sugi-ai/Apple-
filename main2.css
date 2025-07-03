@@ -1,18 +1,13 @@
-body  *{ 
-  box-sizing: border-box;
-  margin: 0;
+body {
+  background-color: rgba(245, 245, 247, 1);
   font-family: "inter", sans-serif;
 }
 
-.box1 {
-  width: 100%;
-  height: 44px;
-  gap: 24px;
-  background-color: #f5f5f7cc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
+
 .logo1 {
   display: flex;
   align-items: center;
@@ -196,8 +191,8 @@ body  *{
   background-color: rgba(245, 245, 247, 1);
 }
 
-
-.oops { width: 100%;
+.oops {
+  width: 100%;
   display: flex;
   margin-top: 24px;
   gap: 20px;
@@ -265,36 +260,42 @@ body  *{
   left: 30px;
 }
 
-.oopstext{
-    font-family: "inter", sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    color: #B64400;
+.oopstext {
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #b64400;
 }
-.oopstextpos{
-    position: absolute;
-    top: 359px;
-    left: 28px;
+.oopstextpos {
+  position: absolute;
+  top: 359px;
+  left: 28px;
 }
 
-.boldtext{font-family: "inter", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #1D1D1F;
+.boldtext {
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1d1d1f;
 }
-.boldpos{
-    position: absolute;
-    top: 380px;
-    left: 28px;
+.boldpos {
+  position: absolute;
+  top: 380px;
+  left: 28px;
 }
-.dollartext{
-    font-family: "inter", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #1D1D1F;
+.dollartext {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1d1d1f;
 }
-.dollarpos{
-    position: absolute;
-    top: 452px;
-    left: 28px;
+.dollarpos {
+  position: absolute;
+  top: 452px;
+  left: 28px;
+}
+.tseg {
+  position: absolute;
+  top: 301px;
+  left: 30px;
 }
