@@ -66,116 +66,6 @@
   background-image: url(Figure6.png);
 }
 
-/* Box(1,2,3,4) */
-.box2 {
-  width: 100%;
-  gap: 4px;
-  padding: 16px 16px;
-  display: flex;
-  background-color: rgba(255, 255, 255, 1);
-  justify-content: center;
-  text-align: center;
-  size: 14px;
-  color: #1d1d1f;
-  letter-spacing: 0px;
-  background-position: center;
-}
-
-.box3 {
-  background-image: url(Background1.png);
-  width: 100%;
-  height: 692px;
-  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' */
-  background-position: center;
-  background-size: cover;
-}
-
-.box3-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.box3-1-H1 {
-  size: 52px;
-  color: rgba(245, 245, 247, 1);
-  margin-top: 55px;
-  margin-bottom: 0;
-}
-
-.box3-1-H2 {
-  size: 24px;
-  color: rgba(245, 245, 247, 1);
-  margin-top: 16px;
-  font-weight: 400;
-}
-
-.buttonbox {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.learnmore {
-  border: 1px solid #0071e3;
-  background-color: #0071e3;
-  border-radius: 120px;
-  color: #ffffff;
-  padding: 10px;
-}
-
-.buy {
-  border: 1px solid #0071e3;
-  background-color: transparent;
-  border-radius: 120px;
-  color: white;
-  padding: 10px;
-}
-
-.box4 {
-  background-image: url(Background2.png);
-  width: 100%;
-  height: 692px;
-  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' */
-  margin-top: 12px;
-  background-size: cover;
-  background-position: center;
-}
-
-.box5 {
-  background-image: url(Box5zurag.png);
-  width: 100%;
-  height: 692px;
-  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' */
-  margin-top: 10px;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 12px;
-}
-.card-box {
-  display: flex;
-  justify-content: end;
-  flex-direction: column;
-  align-items: center;
-}
-.box5-title {
-  font-family: inter;
-  font-size: 52px;
-  font-weight: 600;
-  color: #000000;
-  letter-spacing: -0.28px;
-  margin-top: 446px;
-}
-.box5-text {
-  font-family: inter;
-  font-size: 24px;
-  font-weight: 400;
-  color: #000000;
-}
-
 /* box6 */
 .box6 {
   background-image: url(Figure1.png);
@@ -474,7 +364,7 @@
   }
 }
 
-/* mobile */
+/* media mobile */
 @media (max-width: 600px) {
   .products {
     flex-direction: column;
@@ -485,16 +375,6 @@
   }
   .products-item {
     width: 100%;
-  }
-  .box3 {
-    background-image: url(16pro-mobile.jpg);
-    padding-top: 400px;
-  }
-  .box4 {
-    background-image: url(bosoo-mobile.jpg);
-  }
-  .box5 {
-    display: none;
   }
 
   .slides-container .slides img {

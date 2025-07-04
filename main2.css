@@ -192,7 +192,7 @@ body {
 }
 
 .oops {
-  width: 100%;
+  min-width: 313%;
   display: flex;
   margin-top: 24px;
   gap: 20px;
@@ -298,4 +298,8 @@ body {
   position: absolute;
   top: 301px;
   left: 30px;
+}
+.general-container {
+  width: 1500px;
+  margin: 0 auto;
 }

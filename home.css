@@ -1,0 +1,141 @@
+/* container1 */
+.container1 {
+  width: 100%;
+  gap: 4px;
+  padding: 16px 16px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: center;
+  text-align: center;
+  size: 14px;
+  color: #1d1d1f;
+  letter-spacing: 0px;
+  background-position: center;
+}
+/* container1 end */
+
+/* iphone16pro */
+.iphone16pro {
+  background-image: url(Background1.png);
+  width: 100%;
+  height: 692px;
+  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' */
+  background-position: center;
+  background-size: cover;
+}
+
+.iphone16proBG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iphone16pro-text1 {
+  size: 52px;
+  color: rgba(245, 245, 247, 1);
+  margin-top: 55px;
+  margin-bottom: 0;
+}
+
+.iphone16pro-text2 {
+  size: 24px;
+  color: rgba(245, 245, 247, 1);
+  margin-top: 16px;
+  font-weight: 400;
+}
+
+/* media mobile */
+@media (max-width: 600px) {
+  .iphone16pro {
+    background-image: url(16pro-mobile.jpg);
+    padding-top: 400px;
+  }
+}
+/* iphone16pro end */
+
+/* iphone16 */
+.iphone16 {
+  background-image: url(Background2.png);
+  width: 100%;
+  height: 692px;
+  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' */
+  margin-top: 12px;
+  background-size: cover;
+  background-position: center;
+}
+/* media mobile */
+@media (max-width: 600px) {
+  .iphone16 {
+    background-image: url(bosoo-mobile.jpg);
+    padding-top: 400px;
+  }
+}
+/* iphone16 end */
+
+/* button */
+.buttonbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.learnmore {
+  border: 1px solid #0071e3;
+  background-color: #0071e3;
+  border-radius: 120px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.buy {
+  border: 1px solid #0071e3;
+  background-color: transparent;
+  border-radius: 120px;
+  color: white;
+  padding: 10px;
+}
+
+/* button end */
+
+/* gift */
+.gift {
+  background-image: url(Box5zurag.png);
+  background-color: rgba(245, 245, 247, 1);
+  width: 100%;
+  height: 692px;
+  background-repeat: no-repeat; /* Changed from 'repeat' to 'no-repeat' */
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 12px;
+}
+.gift-box {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+}
+.gift-text1 {
+  font-family: inter;
+  font-size: 52px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: -0.28px;
+  margin-top: 446px;
+}
+.gift-text2 {
+  font-family: inter;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+@media (max-width: 600px) {
+  .gift {
+    display: none;
+  }
+}
+
+/* gift end */
